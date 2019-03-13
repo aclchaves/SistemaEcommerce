@@ -74,7 +74,7 @@ public class Cliente {
     
     public void validar() throws ValidacaoException{
         if(this.nome == null || this.nome.equals("")){
-            throw new ValidacaoException("Campo nome não preenchido");
+            throw new ValidacaoException("Campo nome não preenchido!");
         }
     }
     

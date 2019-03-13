@@ -15,7 +15,7 @@ import util.ValidacaoException;
  */
 public class ClienteView extends javax.swing.JInternalFrame {
 
-    private final ClienteControl clienteControl;
+    private ClienteControl clienteControl;
     /**
      * Creates new form ClienteView
      */
